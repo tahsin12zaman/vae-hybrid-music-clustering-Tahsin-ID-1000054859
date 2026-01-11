@@ -1,0 +1,30 @@
+file,language,cluster_vae,cluster_pca
+data/audio/english/Cotton-EyedJoe.ogg,english,0,1
+data/audio/english/Habaneras.ogg,english,0,0
+data/audio/english/Every Day Will Be Sunday When the Town Goes Dry - Edward Meeker (1919).ogg,english,0,0
+data/audio/english/Encore (feat. GUMI English) - official audio.ogg,english,0,0
+data/audio/english/Be Thankful Song.ogg,english,1,1
+data/audio/english/Everybody gives me good advice - Bob Roberts 1906.ogg,english,0,0
+data/audio/english/Cohen Owes Me 97 Dollars .ogg,english,1,0
+data/audio/english/Boykisser song.wav,english,0,0
+data/audio/english/Golden Vanity.ogg,english,1,1
+data/audio/english/Daisy Bell sung by DECtalk (2).flac,english,1,1
+data/audio/english/ArtieShaw-DayAfterDay1938.ogg,english,0,0
+data/audio/english/Harvest Hymn.ogg,english,1,1
+data/audio/english/ElsieBaker-ILoveYouTruly.ogg,english,0,0
+"data/audio/english/Beautiful Ohio - Henry Burr & Ruth Lenox, 1919.ogg",english,0,0
+data/audio/english/Al Bowly - Guilty.ogg,english,0,0
+data/audio/english/Daisy Bell sung by DECtalk.flac,english,1,1
+data/audio/english/Eagle Song of the Hopi Indians of AZ.ogg,english,0,0
+data/audio/english/Good Liquor Gonna Carry Me Down.ogg,english,0,0
+"data/audio/english/Dibdin - Oh, What A Charming Thing's A Battle.ogg",english,0,0
+data/audio/bangla/আমি বনফুল গো.mp3,bangla,0,0
+data/audio/bangla/এই পথ যদি না শেষ হয় (দ্বৈত).mp3,bangla,0,0
+data/audio/bangla/আমি খাতার পাতায় চেয়েছিলাম.mp3,bangla,1,1
+data/audio/bangla/আকাশ প্রদীপ জ্বলে.mp3,bangla,0,0
+data/audio/bangla/আমি সাগরের বেলা.mp3,bangla,0,0
+data/audio/bangla/আমি টাকডুম টাকডুম বাজাই.mp3,bangla,0,0
+data/audio/bangla/আমি নিরালায় বসে.mp3,bangla,0,0
+data/audio/bangla/এই কূলে আমি.mp3,bangla,0,0
+data/audio/bangla/আমি এত যে তোমায় ভালবেসেছি.mp3,bangla,0,0
+data/audio/bangla/এই রাত তোমার আমার.mp3,bangla,0,0

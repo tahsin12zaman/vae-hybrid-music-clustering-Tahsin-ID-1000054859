@@ -1,0 +1,432 @@
+{
+  "audio_baseline_meanmel": {
+    "kmeans": {
+      "k": 2,
+      "ARI": -0.03220338983050847,
+      "silhouette": 0.3431343138217926,
+      "davies_bouldin": 1.0446460341433887,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": -0.02301691137277705,
+      "silhouette": 0.34004107117652893,
+      "davies_bouldin": 1.05831675365457,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  },
+  "audio_vae_latent": {
+    "kmeans": {
+      "k": 2,
+      "ARI": -0.03874269005847953,
+      "silhouette": 0.03854764252901077,
+      "davies_bouldin": 3.1254937011860067,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": 0.026779661016949154,
+      "silhouette": 0.05262772738933563,
+      "davies_bouldin": 3.2499667553719904,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  },
+  "lyrics_svd": {
+    "kmeans": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.021158544346690178,
+      "davies_bouldin": 3.98406144095145,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.021158544346690178,
+      "davies_bouldin": 3.98406144095145,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  },
+  "hybrid_alpha1_audioVAE_plus_lyrics": {
+    "kmeans": {
+      "k": 2,
+      "ARI": -0.0692249811888638,
+      "silhouette": 0.023605626076459885,
+      "davies_bouldin": 2.862362860306448,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": 0.2425740175413093,
+      "silhouette": 0.012574052438139915,
+      "davies_bouldin": 4.305761754348682,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  },
+  "hybrid_alpha0.3_audioVAE_plus_lyrics": {
+    "kmeans": {
+      "k": 2,
+      "ARI": 0.7328947368421053,
+      "silhouette": 0.020230310037732124,
+      "davies_bouldin": 3.938890267750446,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": 0.501889385091034,
+      "silhouette": 0.01953454129397869,
+      "davies_bouldin": 3.7758923168287803,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  },
+  "hybrid_alpha0.1_audioVAE_plus_lyrics": {
+    "kmeans": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.02102609910070896,
+      "davies_bouldin": 3.987260193364712,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.02102609910070896,
+      "davies_bouldin": 3.987260193364712,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  },
+  "hybrid_alpha0.03_audioVAE_plus_lyrics": {
+    "kmeans": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.02114660106599331,
+      "davies_bouldin": 3.984350388040221,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.02114660106599331,
+      "davies_bouldin": 3.984350388040221,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  },
+  "hybrid_alpha0.01_audioVAE_plus_lyrics": {
+    "kmeans": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.02115722931921482,
+      "davies_bouldin": 3.984093484518758,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.02115722931921482,
+      "davies_bouldin": 3.984093484518758,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  },
+  "hybrid_alpha0.003_audioVAE_plus_lyrics": {
+    "kmeans": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.021158430725336075,
+      "davies_bouldin": 3.9840640938674077,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.021158430725336075,
+      "davies_bouldin": 3.9840640938674077,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  },
+  "hybrid_alpha0.001_audioVAE_plus_lyrics": {
+    "kmeans": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.021158557385206223,
+      "davies_bouldin": 3.9840615740439898,
+      "n_clusters_found": 2
+    },
+    "agglomerative_ward": {
+      "k": 2,
+      "ARI": 0.8618510596927863,
+      "silhouette": 0.021158557385206223,
+      "davies_bouldin": 3.9840615740439898,
+      "n_clusters_found": 2
+    },
+    "dbscan_eps0.5": {
+      "eps": 0.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1": {
+      "eps": 1.0,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    },
+    "dbscan_eps1.5": {
+      "eps": 1.5,
+      "min_samples": 3,
+      "ARI": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "n_clusters_found": 0,
+      "n_noise": 29
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Large artifacts / generated files (adjust as you like)
+data/audio/
+data/lyrics/asr/
+
+# Model/arrays (optional: keep metrics/plots instead)
+*.pt
+*.npy
+
+# misc
+*.save

@@ -1,0 +1,30 @@
+filename,language,audio_path,sr,seconds,mel_bins,frames
+Cotton-EyedJoe.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Cotton-EyedJoe.ogg,16000,30.0,80,3000
+Habaneras.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Habaneras.ogg,16000,30.0,80,3000
+Every Day Will Be Sunday When the Town Goes Dry - Edward Meeker (1919).ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Every Day Will Be Sunday When the Town Goes Dry - Edward Meeker (1919).ogg,16000,30.0,80,3000
+Encore (feat. GUMI English) - official audio.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Encore (feat. GUMI English) - official audio.ogg,16000,30.0,80,3000
+Be Thankful Song.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Be Thankful Song.ogg,16000,30.0,80,3000
+Everybody gives me good advice - Bob Roberts 1906.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Everybody gives me good advice - Bob Roberts 1906.ogg,16000,30.0,80,3000
+Cohen Owes Me 97 Dollars .ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Cohen Owes Me 97 Dollars .ogg,16000,30.0,80,3000
+Boykisser song.wav,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Boykisser song.wav,16000,30.0,80,3000
+Golden Vanity.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Golden Vanity.ogg,16000,30.0,80,3000
+Daisy Bell sung by DECtalk (2).flac,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Daisy Bell sung by DECtalk (2).flac,16000,30.0,80,3000
+ArtieShaw-DayAfterDay1938.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/ArtieShaw-DayAfterDay1938.ogg,16000,30.0,80,3000
+Harvest Hymn.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Harvest Hymn.ogg,16000,30.0,80,3000
+ElsieBaker-ILoveYouTruly.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/ElsieBaker-ILoveYouTruly.ogg,16000,30.0,80,3000
+"Beautiful Ohio - Henry Burr & Ruth Lenox, 1919.ogg",english,"/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Beautiful Ohio - Henry Burr & Ruth Lenox, 1919.ogg",16000,30.0,80,3000
+Al Bowly - Guilty.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Al Bowly - Guilty.ogg,16000,30.0,80,3000
+Daisy Bell sung by DECtalk.flac,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Daisy Bell sung by DECtalk.flac,16000,30.0,80,3000
+Eagle Song of the Hopi Indians of AZ.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Eagle Song of the Hopi Indians of AZ.ogg,16000,30.0,80,3000
+Good Liquor Gonna Carry Me Down.ogg,english,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Good Liquor Gonna Carry Me Down.ogg,16000,30.0,80,3000
+"Dibdin - Oh, What A Charming Thing's A Battle.ogg",english,"/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/english/Dibdin - Oh, What A Charming Thing's A Battle.ogg",16000,30.0,80,3000
+আমি বনফুল গো.mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/আমি বনফুল গো.mp3,16000,30.0,80,3000
+এই পথ যদি না শেষ হয় (দ্বৈত).mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/এই পথ যদি না শেষ হয় (দ্বৈত).mp3,16000,30.0,80,3000
+আমি খাতার পাতায় চেয়েছিলাম.mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/আমি খাতার পাতায় চেয়েছিলাম.mp3,16000,30.0,80,3000
+আকাশ প্রদীপ জ্বলে.mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/আকাশ প্রদীপ জ্বলে.mp3,16000,30.0,80,3000
+আমি সাগরের বেলা.mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/আমি সাগরের বেলা.mp3,16000,30.0,80,3000
+আমি টাকডুম টাকডুম বাজাই.mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/আমি টাকডুম টাকডুম বাজাই.mp3,16000,30.0,80,3000
+আমি নিরালায় বসে.mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/আমি নিরালায় বসে.mp3,16000,30.0,80,3000
+এই কূলে আমি.mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/এই কূলে আমি.mp3,16000,30.0,80,3000
+আমি এত যে তোমায় ভালবেসেছি.mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/আমি এত যে তোমায় ভালবেসেছি.mp3,16000,30.0,80,3000
+এই রাত তোমার আমার.mp3,bangla,/home/user/Desktop/Projects/VAE_for_Hybrid _Language_Music_Clustering_Medium_Task/data/audio/bangla/এই রাত তোমার আমার.mp3,16000,30.0,80,3000

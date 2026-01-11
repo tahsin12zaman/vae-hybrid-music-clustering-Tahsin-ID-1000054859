@@ -1,0 +1,3 @@
+method,dim,k,silhouette,calinski_harabasz
+VAE+KMeans,8,2,0.40750924,14.042002897355653
+PCA+KMeans,8,2,0.33102053,9.924896930495928
