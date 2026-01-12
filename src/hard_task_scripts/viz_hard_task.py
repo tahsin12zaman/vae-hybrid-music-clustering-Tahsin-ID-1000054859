@@ -66,27 +66,22 @@ def _scatter_by_category(
     title: str,
     out_path: Path,
     max_legend: int = 30,
+    show_legend: bool = True,
 ):
     plt.figure(figsize=(8, 6))
     labels = [str(x) for x in labels]
     uniq = sorted(set(labels))
 
-    # map categories to integers
-    m = {u: i for i, u in enumerate(uniq)}
-    y = np.array([m[x] for x in labels], dtype=int)
+    for u in uniq:
+        mask = np.array([lab == u for lab in labels])
+        plt.scatter(X2[mask, 0], X2[mask, 1], s=45, label=u)
 
-    sc = plt.scatter(X2[:, 0], X2[:, 1], c=y, s=45)
     plt.title(title)
     plt.xlabel("dim-1")
     plt.ylabel("dim-2")
 
-    # legend (limited)
-    if len(uniq) <= max_legend:
-        handles = []
-        for u in uniq:
-            idx = m[u]
-            handles.append(plt.Line2D([], [], marker="o", linestyle="", label=u))
-        plt.legend(handles=handles, bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=9)
+    if show_legend and len(uniq) <= max_legend:
+        plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=9, frameon=True)
 
     plt.tight_layout()
     plt.savefig(out_path, dpi=160)
@@ -284,16 +279,27 @@ def main():
     for rep_name, X in reps.items():
         X2 = embed_2d(X, seed=args.seed, mode=args.embed_mode)
 
+        # Save a clean version (no legend) for the report
+        _scatter_by_category(
+            X2, genre,
+            title=f"{rep_name} ({args.embed_mode}) colored by genre",
+            out_path=out_dir / f"{rep_name}_{args.embed_mode}_by_genre_nolegend.png",
+            show_legend=False,
+        )
+
+        # (Optional) keep the legend version too (useful for README/debug)
         _scatter_by_category(
             X2, genre,
             title=f"{rep_name} ({args.embed_mode}) colored by genre",
             out_path=out_dir / f"{rep_name}_{args.embed_mode}_by_genre.png",
+            show_legend=True,
         )
 
         _scatter_by_category(
             X2, language,
             title=f"{rep_name} ({args.embed_mode}) colored by language",
             out_path=out_dir / f"{rep_name}_{args.embed_mode}_by_language.png",
+
         )
 
         # cluster assignment using best method from metrics (fallback to agglo)
